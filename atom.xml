@@ -5,9 +5,9 @@
   <subtitle>人工智能,记录生活</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://zcxblog.top/"/>
   <updated>2020-03-07T08:21:28.699Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://zcxblog.top/</id>
   
   <author>
     <name>人生亦逝</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>使用Hexo创建个人博客初篇</title>
-    <link href="http://yoursite.com/2020/03/07/%E4%BD%BF%E7%94%A8Hexo%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%88%9D%E7%AF%87/"/>
-    <id>http://yoursite.com/2020/03/07/%E4%BD%BF%E7%94%A8Hexo%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%88%9D%E7%AF%87/</id>
+    <link href="http://zcxblog.top/2020/03/07/%E4%BD%BF%E7%94%A8Hexo%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%88%9D%E7%AF%87/"/>
+    <id>http://zcxblog.top/2020/03/07/%E4%BD%BF%E7%94%A8Hexo%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%88%9D%E7%AF%87/</id>
     <published>2020-03-07T03:24:05.000Z</published>
     <updated>2020-03-07T08:21:28.699Z</updated>
     
@@ -28,19 +28,19 @@
     </summary>
     
     
-      <category term="人工智能" scheme="http://yoursite.com/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+      <category term="人工智能" scheme="http://zcxblog.top/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
     
-      <category term="创建个人博客" scheme="http://yoursite.com/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+      <category term="创建个人博客" scheme="http://zcxblog.top/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
     
-      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+      <category term="hexo" scheme="http://zcxblog.top/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2020/03/06/hello-world/"/>
-    <id>http://yoursite.com/2020/03/06/hello-world/</id>
+    <link href="http://zcxblog.top/2020/03/06/hello-world/"/>
+    <id>http://zcxblog.top/2020/03/06/hello-world/</id>
     <published>2020-03-06T04:59:17.609Z</published>
     <updated>2020-03-06T04:59:17.609Z</updated>
     
