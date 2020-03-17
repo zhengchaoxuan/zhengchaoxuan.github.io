@@ -1,0 +1,8 @@
+class:
+  class_name: 友情鏈接
+  link_list:
+    1:
+      name: JerryC
+      link: https://jerryc.me/
+      avatar: https://jerryc.me/image/avatar.png
+      descr: 博客框架来源

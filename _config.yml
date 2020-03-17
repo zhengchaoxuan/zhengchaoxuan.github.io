@@ -6,14 +6,14 @@
 title: 人生亦逝  #网站标题
 subtitle: '人工智能,记录生活'     #副标题
 description: '迷途漫漫，终有一归' #SEO：search engine optimization
-keywords: 人工智能,生活
+keywords: 人工智能
 author: 人生亦逝
 language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://zcxblog.top
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -102,11 +102,50 @@ feed:
   limit: 20
 
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: Butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/zhengchaoxuan/zhengchaoxuan.github.io.git
+  repo: 
+    github: https://github.com/zhengchaoxuan/zhengchaoxuan.github.io.git
+    coding: git@e.coding.net:zhengchaoxuan/blog.git
+
   branch: master
+
+baidusitemap:
+  path: baidusitemap.xml
+sitemap:
+  path: sitemap.xml
+
+#播放器
+aplayer:
+  meting: true
+
+#电影推荐界面--豆瓣
+douban:
+  user: 186435441   #你的豆瓣ID
+  builtin: true
+  movie:
+    title: '这些年，我看过的电影' #该页面的标题
+    quote: '电影就是每秒24格的真实' #写在页面开头的一段话,支持html语法
+  timeout: 10000 #爬取数据的超时时间
+
+#搜索模块
+search:
+    path: search.xml
+    field: post
+    format: html
+    limit: 10000
+
+#添加PMA特性
+# offline config passed to sw-precache.
+offline:
+  maximumFileSizeToCacheInBytes: 10485760 # 緩存的最大文件大小，以字節為單位
+  staticFileGlobs:
+    - public/**/*.{js,html,css,png,jpg,gif,svg,webp,eot,ttf,woff,woff2}
+  # 靜態文件合集，如果你的站點使用了例如webp格式的文件，請將文件類型添加進去。
+  stripPrefix: public
+  verbose: true
+  
